@@ -1,0 +1,52 @@
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 1000px;
+
+}
+.content .textBox h2
+{
+ color: #fff;
+ font-size: 4em;
+ line-height: 1.4em;
+ font-weight: 500;
+ font-family:Arial;
+}
+
+
+.content .textBox h3{
+    font-family:Arial;
+    font-size: 3em;
+    color:#fff
+}
+
+.content .textBox p
+{
+    font-family: cursive;
+    color: #fff;
+    font-size: 1.6em;
+}
+.content .textBox a
+{
+display: inline-block;
+margin-top: 20px;
+padding: 8px 20px;
+background:#fff;
+color: #04040f;
+border-radius: 40px;
+font-weight: 500;
+letter-spacing: 1px;
+text-decoration: none;
+
+}
+
+

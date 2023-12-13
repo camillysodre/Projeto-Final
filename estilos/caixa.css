@@ -1,0 +1,281 @@
+
+
+
+
+#caixa .container2{
+    
+    text-align: center;
+  
+    padding:200px 12px;
+   
+
+    
+   
+}
+
+#caixa .container2{
+      
+  display: flex;
+   
+    justify-content: center;
+
+    background-size: cover;
+
+  background: #181818;
+
+  position: relative;
+
+
+
+}
+
+   
+   
+   
+   #caixa .text2{
+      
+    width: 90%;
+    
+    max-width: 500px;
+    
+    text-align: initial;
+    
+    padding-left: 60px;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+
+    color: #fff;
+
+    font-size: 19px;
+  
+}
+
+#caixa .img-container2{
+        
+    background-image: url("../IMAGEM/ilhas.gif");
+     
+    background-size: cover;
+     background-position: center center;
+     
+     height: 400px;
+
+     width: 500px; 
+ }
+ #caixa h2{
+      
+    
+    font-family: 'PT Serif', serif;
+ 
+    font-size: 40px;
+
+    color: #9186f1;
+
+    text-shadow: 2px 2px 6px #994eee;
+  }
+
+
+  #caixa .container3{
+    
+    text-align: center;
+  
+    padding:100px 12px;
+   
+    margin: 70px;
+
+
+}
+
+
+#caixa h3{
+      
+    
+  font-family: 'PT Serif', serif;
+
+  font-size: 40px;
+color: #e0db4c;
+text-shadow: 2px 2px 6px #ecda34;
+}
+
+
+#caixa .container{
+      
+    display: flex;
+     
+      justify-content: center;
+  
+      background-size: cover;
+  
+    background: #181818;
+  
+    position: relative;
+  
+ 
+  }
+
+
+ #caixa .img-container3{
+        
+    background-image: url("../IMAGEM/memoria.webp");
+     
+
+     background-position: center center;
+     
+     height: 200px;
+     width: 300px; 
+ }
+
+
+ #caixa .text3{
+      
+    width: 90%;
+    
+    max-width: 800px;
+    
+    text-align: initial;
+    
+    padding-left: 300px;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+
+    color: #fff;
+
+    font-size: 20px;
+  
+}
+
+ .container3 img{
+    height: 300px;
+    width: 400px;
+    background-position:center;
+    position: absolute;
+}
+
+.container3 .text3 p{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+ 
+
+
+
+
+
+
+.container4 img{
+    height: 300px;
+    width: 400px;
+    background-position:center;
+    position: absolute;
+}
+
+#caixa h1{
+      
+    
+  font-family: 'PT Serif', serif;
+
+  font-size: 40px;
+color: #659cee;
+text-shadow: 2px 2px 6px #1d58d8;
+}
+
+
+#caixa .img-container4{
+        
+    background-image: url("../IMAGEM/papel02.png");
+     
+
+     background-position: center center;
+     
+     height: 300px;
+     width: 400px; 
+ }
+
+
+
+
+ #caixa .text4{
+      
+  width: 90%;
+  
+  max-width: 800px;
+  
+  text-align: initial;
+  
+  padding-left: 300px;
+  
+  display: flex;
+  
+  flex-direction: column;
+  
+  justify-content: center;
+
+  color: #fff;
+font-size: 20px;
+  
+}
+
+
+
+#caixa .container5{
+    
+  text-align: center;
+
+  padding:100px 12px;
+ 
+  margin: 70px;
+
+
+}
+ .container5 img{
+  height: 400px;
+  width: 500px;
+  background-position:center;
+  position: absolute;
+}
+.container5 .text3 p{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+#caixa h6{
+      
+    
+  font-family: 'PT Serif', serif;
+
+  font-size: 40px;
+
+  background: linear-gradient(45deg, #f04435, #695af5, #50ec9e,#2884ec);
+
+
+  animation: degrade 15s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  background-size: 300% 100%;
+
+    -webkit-text-fill-color: transparent;
+
+    outline: none;
+}
+@keyframes degrade {
+  0%{
+      background-position-x: 0%;
+  }
+
+  100%{
+      background-position: 400%;
+  }
+}
+
+

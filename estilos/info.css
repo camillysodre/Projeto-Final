@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background: #000000;
+}
+
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+    padding: 20px 10%;
+    background: #211f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1000;
+    box-shadow: 0px 0px 10px #424242;
+}
+
+
+header .logo
+{
+    position: relative;
+    max-width: 90px;
+    
+    
+}
+header ul{
+    position: relative;
+    display: flex;
+
+}
+
+header ul li{
+    list-style: none;
+
+
+}
+
+header ul li a 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 60px;
+    text-decoration: none;
+    
+
+}
+
+#somos-proya .container{
+    position:relative;
+    text-align: center;
+  align-items: center;
+    padding: 100px 25px;
+   
+
+    
+   
+}
+
+
+
+#somos-proya1 .container{
+      
+  display: flex;
+   
+    justify-content: center;
+
+    background-size: cover;
+
+  background: #000000;
+
+
+
+}
+
+
+
+
+  #somos-proya h2{
+      
+      margin-top: 0px;
+      font-family: 'PT Serif', serif;
+ 
+    }
+
+
+    #somos-proya h3{
+      
+        margin-top: 0px;
+        font-family: 'PT Serif', serif;
+        font-size: 28px;
+   
+      }
+
+  #somos-proya .texto{
+      
+      width: 90%;
+      
+      max-width: 550px;
+      
+      text-align: initial;
+      
+      padding-left: 80px;
+      
+      display: flex;
+      
+      flex-direction: column;
+      
+      justify-content: center;
+
+      color: #fff;
+
+      font-size: 18px;
+  
+
+      
+  }
+
+  #somos-proya .img-container{
+        
+    background-image: url("../IMAGEM/emo3.webp");
+     
+    background-size: cover;
+     background-position: center center;
+     height: 400px;
+     width: 500px; 
+ }
+ .color-acento{ 
+    color:blueviolet; 
+   }
+
+   .color-acento1{ 
+    color:rgb(6, 130, 10); 
+   }
+
+ 
+
+
+
+
+   .container{
+    display: flex;
+    justify-content: center;
+    min-height: 150vh;
+    
+    gap: 100px 60px;
+    flex-wrap: wrap;
+  
+    margin: 30px;
+    background: #0c0c0c;
+    
+
+}
+
+.container .card{
+    position:relative;
+    display: flex;
+    justify-content: center;
+   
+    width: 350px;
+    height: 310px;
+    background: #000;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(209, 207, 207, 0.15);
+    background: #444242;
+    transition: .5s;
+    
+   
+}
+
+.container .text{
+
+     color: #f3f3f3;
+     font-size: 44px;
+     line-height: 1.4em;
+     font-weight: 40;
+     font-family:cursive;
+     text-align: initial;
+  
+}
+
+.container .text p{
+
+
+      
+    max-width: 200px;
+    
+    text-align: initial;
+    
+    padding-left: 0px;
+    
+    display: flex;
+
+    justify-content: center;
+
+    color: #fff;
+  
+}
+.container .text span1{
+
+    color: #edf05b;
+    justify-content: center;
+    margin-top: 0px;
+  
+
+}
+.container .text span2{
+
+    color: #2b9eeb;
+    justify-content: center;
+    margin-top: 0px;
+  
+
+}
+
+    
+.container .card:hover{
+    height: 400px;
+}
+
+.container .card .caixaImg{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+.container .card .caixaImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .conteudo{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+    transition: .5s;
+
+}
+.container .card:hover .conteudo{
+    top: 150px;
+    height: 250px;
+    
+}
+
+
+.container .card:hover .caixaImg{
+    top: -100px;
+    scale: .75;
+    box-shadow: 0 15px 45px rgba(202, 198, 198, 0.2);
+
+
+}
+
+.container .card .conteudo h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 4rem;
+    color: var(--cor);
+}
+
+.container .card .conteudo p{
+    color: #fffdfd;
+    text-align: center;
+}
+
+#nuestros-programas{
+    
+      
+    border-radius: 120px;
+    color: white;
+ 
+    text-align: center;
+}
+   
+   
+#nuestros-programas h2{
+    font-size: 4em;
+}
+    
+.text{
+    color: aliceblue;
+    text-align: center;
+    margin: 50px;
+}
+ 
+
