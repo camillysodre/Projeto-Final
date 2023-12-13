@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contato</title>
+        <link rel="stylesheet" href="CSS/login.css">
+        <link rel="stylesheet" href="CSS/stylelogin.css">
+        <link rel="stylesheet" href="https://use.fontawesone.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK10YPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+<video muted autoplay loop id="video-bg">
+            <source src="IMAGEM/fundo.mp4" type="video/mp4">
+        </video>
+
+        <div class="background-overlay"></div>
+
+        <form action="https://formsubmit.co/anaeloisamatosribeiro@gmail.com" method="POST" class="form">
+
+
+            <h1>Cadastre-se</h1>
+            <h4>Preencha esse formulário e faça parte da equipe<br>
+            de produtores de conteúdo desse site.</h4><br>
+
+            <label for="name"> Nome</label>
+            <input type="text" name="name" id="name" placeholder="Nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required />
+            <label for="message">Faça uma sugestão de conteúdo</label>
+            <textarea name="message" id="message" placeholder="Mensagem" required></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/javascript/22.11/PROJETO02/FORM_02/contato/obrigado.html" />
+            <button type="submit"><a href="info.html">Enviar</a></button>
+        </form>
+        <script src="js/app1.js"></script>
+    </body>
+</html>

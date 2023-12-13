@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Psicologia no Divertidamente</title>
+    <link rel="stylesheet" href="estilos/section.css">
+    <link rel="stylesheet" href="estilos/style.css">
+
+    
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="IMAGEM/logo01.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Sobre</a></li>
+                <li><a href="Personagens.html">Personagens</a></li>
+                <li><a href="trailer.html">Trailer</a></li>
+                <li><a href="filme2.html">Divertidamente 2</a></li>
+                <li><a href="login.html">Seja Membro</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>A psicologia no <span>Divertidamente</span></h2>
+                <p> Você já se perguntou o que passa na cabeça de uma pessoa para ter determinado comportamento? A mente humana sempre foi fonte de muita curiosidade e, para os leigos, ela é ainda mais misteriosa. Foi pensando em explorar conceitos científicos e psicológicos que a Pixar criou o filme “Divertidamente”.</p>
+           <a href="info.html"> Saiba Mais</a>
+            </div>
+
+           <div class="imgBox">
+           <img src="IMAGEM/alegria02.png" class="alegria">
+           </div>
+</div>
+<ul class="thumb">
+    <li><img src="IMAGEM/alegria02.png" onclick="imgSlider('IMAGEM/alegria02.png');changeCircleColor('#e3ba17')"></li>
+    <li><img src="imagen/tris.webp" onclick="imgSlider('imagen/tris.webp');changeCircleColor (' #7abef5')"></li>
+    <li><img src="IMAGEM/medo02.png" onclick="imgSlider('IMAGEM/medo02.png');changeCircleColor (' #a66de8')"></li>
+    <li><img src="IMAGEM/raiva.png" onclick="imgSlider('IMAGEM/raiva.png');changeCircleColor (' #f55d49')"></li>
+    <li><img src="imagen/nojinho.webp" onclick="imgSlider('imagen/nojinho.webp');changeCircleColor (' #c9f5b0')"></li>
+    
+</ul>
+       
+
+
+     <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.alegria').src = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+     </script>
+
+        </section>
+
+
+
+        
+
+
+</body>
+</body>
+
+
+</html>
